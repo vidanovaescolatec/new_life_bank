@@ -66,7 +66,7 @@ pip3 freeze >> requirements.txt
 
 ### 17) Para rodar o servidor:
 ```
-uvicorn main:app --reload
+python main.py
 ```
 ### 18) Para realizar uma consulta no servidor:
 * browser (http://127.0.0.1:8000/) 
