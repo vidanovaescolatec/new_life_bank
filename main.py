@@ -1,7 +1,7 @@
-from datetime import datetime
+import uvicorn
 from typing import Dict
 from fastapi import FastAPI
-import uvicorn
+from datetime import datetime
 
 app = FastAPI()
 
